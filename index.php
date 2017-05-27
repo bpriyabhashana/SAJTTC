@@ -109,7 +109,6 @@ HOME</a></li>
 </div><!-- end flags-->
 <div class="col-md-12">
  
-
 <div id="slideshow" class="col-md-12">
 			<div class="slideshow-container">
 		<div class="mySlides fade">
