@@ -1,0 +1,79 @@
+
+create table matchresult
+(
+  tableno int(10) auto_increment primary key,
+  singledouble varchar(30),
+  matchcat varchar(30),
+  agegroup varchar(30),
+  menwomen varchar(30),
+  country1 varchar(100),
+  country2 varchar(100),
+  round1 varchar(10),
+  round1win varchar(50),
+  round2 varchar(10),
+  round2win varchar(50),
+  round3 varchar(10),
+  round3win varchar(50),
+  round4 varchar(10),
+  round4win varchar(50),
+  round5 varchar(10),
+  round5win varchar(50),
+  matchwinner varchar(50)
+  );
+
+  create table tableresult
+(
+  tableno int(10) auto_increment primary key,
+  singledouble varchar(30),
+  matchcat varchar(30),
+  agegroup varchar(30),
+  menwomen varchar(30),
+  country1 varchar(100),
+  country2 varchar(100),
+  round1 varchar(10),
+  round1win varchar(50),
+  round2 varchar(10),
+  round2win varchar(50),
+  round3 varchar(10),
+  round3win varchar(50),
+  round4 varchar(10),
+  round4win varchar(50),
+  round5 varchar(10),
+  round5win varchar(50),
+  matchwinner varchar(50)
+  );
+
+  create table leaderboard
+  (
+  id int(10) auto_increment primary key,
+  country varchar(50),
+  gold int(10),
+  silver int(10),
+  bronz int(10),
+  points DECIMAL(10,2)
+  );
+
+insert into leaderboard
+(country,gold,silver,bronz,points)
+values
+('images/flags/srilanka.png',0,0,0,0),
+('images/flags/india.png',0,0,0,0),
+('images/flags/pakisthan.png',0,0,0,0),
+('images/flags/bangladesh.png',0,0,0,0),
+('images/flags/maldives.png',0,0,0,0),
+('images/flags/napal.png',0,0,0,0)
+;
+
+
+select top 10 * from tablename order by id desc;
+
+
+create table subadmin(
+name varchar(100),
+uname varchar(100),
+password varchar(100)
+)
+
+insert into subadmin(name,uname,password)
+values
+('admin','admin','sajttc2017colombo');

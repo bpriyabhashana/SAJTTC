@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  max-height:350px;
+  position: center;
+  margin: 0;
+  z-index:-100;
+  
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 4s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 8s;
+  animation-name: fade;
+  animation-duration: 8s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .3}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .3}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+/*@media only screen and (max-width: 100%) {
+  .text {font-size: 11px}
+}*/
+
+/*.flags{
+	 box-shadow: 2px 2px 7px black;
+	 max-height:60px;
+	 max-width:100%;
+}*/
+
+nav ul{
+	float: right;
+	margin-top: 20px;
+	width:80%;
+	margin-right:10%;
+	margin-left:30%;
+}
+
+nav ul li{
+	list-style: none;
+	float: left;
+	margin-left:1%;
+	max-height:100%;
+}
+
+nav ul li a{
+	color: #fff;
+	font-family: Arial;
+	font-size: 16px;
+	max-height:60px;
+	
+}
+
+#logo{
+  width: 20%
+  !important
+	/*box-shadow: 2px 2px 10px black;*/
+}
+#logosltta{
+  width:80px;
+  
+}
+
