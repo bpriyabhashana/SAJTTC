@@ -108,6 +108,8 @@ HOME</a></li>
 </marquee>
 </div><!-- end flags-->
 <div class="col-md-12">
+
+<!-- this is the begining of side show-->
  
 <div id="slideshow" class="col-md-12">
 			<div class="slideshow-container">
