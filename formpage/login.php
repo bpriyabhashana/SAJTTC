@@ -9,7 +9,7 @@ include '../header/header.php';
 <link rel="stylesheet" type="text/css" href="../css/form.css">
 
 
-<title>Untitled Document</title>
+<title>Login Page</title>
 
 </head>
 
