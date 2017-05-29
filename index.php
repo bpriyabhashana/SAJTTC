@@ -232,7 +232,8 @@ $conn->close();
             
 	<div style="border-bottom:1px solid #E2E2E2"></div>
 
-	<div class="panel-body" style="color:#767676;overflow-y: auto; height: 240px !important" >
+
+	<div class="panel-body" style="color:#767676;overflow-y: auto; height: 240px !important">
 
 		<!-- <?php
  include 'include/dbhandler.php';
@@ -331,7 +332,6 @@ $conn->close();
 
 
 </div><!--end left-->
-
 
 
 
