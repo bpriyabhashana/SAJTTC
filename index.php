@@ -66,7 +66,7 @@
 					text-transform:Capitalize
 				
 					">
-HOME</a></li>
+	HOME</a></li>
 
 
 <li><a href="#about" class="btn btn-primary" id="aboutus" style="
