@@ -45,7 +45,6 @@
 <div class="navbar-header" >
 
  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse" style="height: 0px !important">
-
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
