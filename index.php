@@ -5,7 +5,6 @@
 
 <link rel="shortcut icon" href="icon.ico">
 <title>SAJTTC 2017 - COLOMBO</title>
-
 <link href="css/outsource/app.css" rel="stylesheet">
 <link href="css/outsource/main.css" rel="stylesheet">
 <link href="css/outsource/alert.css" rel="stylesheet">
