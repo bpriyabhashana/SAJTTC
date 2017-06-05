@@ -39,7 +39,8 @@
  
 <div id="navigation" class="navbar navbar-default navbar-fixed-top" style="background-color: #030327 !important">
 <div class="container">
-<div class="navbar-header" >
+	
+<div class="navbar-header">
 
  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse" style="height: 0px !important">
 <span class="icon-bar"></span>
