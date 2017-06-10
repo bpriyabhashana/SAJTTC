@@ -11,6 +11,7 @@
 <link href="css/outsource/bodystyle.css" rel="stylesheet">
 
 <link rel="stylesheet" type="text/css" href="css/slides2.css"/>
+
 <link rel="stylesheet" type="text/css" href="css/scoreboards.css"/>
 
 <script src="js/sa.js"></script>
