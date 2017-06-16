@@ -25,6 +25,7 @@ if (empty($uname)) {
 
 if (empty($root)) {
 	header("Location: ../formPage/login.php?error=empty");
+	
 	exit();
 }
 
