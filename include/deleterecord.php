@@ -7,6 +7,8 @@ $matchid = $_POST['matchid'];
 
 	
 		
+		
+
 		$sql = "DELETE FROM matchresult
 	
 		WHERE tableno='$matchid'";
