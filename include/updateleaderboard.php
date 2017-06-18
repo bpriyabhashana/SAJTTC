@@ -15,7 +15,11 @@ $points = $_POST['points'];
 		SET
 		gold='$gold', silver='$silver', bronz='$bronz', points='$points'
 		WHERE
+		
 		id='$id'";
+		
+		
+		
 		
 		
 	
