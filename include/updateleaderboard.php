@@ -19,6 +19,8 @@ $points = $_POST['points'];
 		
 		
 	
+		
+
 		$result = $conn->query($sql);
 
 		header("Location: ../subadmin/table1.php");
