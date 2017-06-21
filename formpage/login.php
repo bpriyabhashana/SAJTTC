@@ -22,7 +22,8 @@ include '../header/header.php';
       <h1 align="center">Log in</h1>
         <hr />
         <div class="form-style-6" id="formdiv">
-        <h1>Log in</h1>
+        
+         <h1>Log in</h1>
         <form action="../include/login.php" method="POST">
         
           
